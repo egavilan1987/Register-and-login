@@ -1,6 +1,6 @@
-CREATE DATABASE users;
+CREATE DATABASE register;
 
-USE users;
+USE register;
 
 CREATE TABLE users(
 				id INT(11) NOT NULL AUTO_INCREMENT,
