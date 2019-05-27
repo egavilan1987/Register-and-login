@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -13,7 +12,7 @@
 	<form method='post' action='signin.php'>
 	<table width='400' border='3' align='center'>
 		<tr>
-			<th bgcolor='silver' colspan='5'>Sign in</h>
+			<th bgcolor='dodgerBlue' colspan='5'>Sign in</h>
 		</tr>
 		<tr >
 			<td align='right'>User name:</td>
