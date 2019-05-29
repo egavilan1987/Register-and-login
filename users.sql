@@ -10,8 +10,6 @@ CREATE TABLE users(
 				email VARCHAR(50) NOT NULL,
 				username VARCHAR(50) NOT NULL,
 				password text(50) NOT NULL,  
-        			address VARCHAR(100) NOT NULL,
-        			Mobile VARCHAR(20) NOT NULL,
         			Gender VARCHAR(10) NOT NULL,  
 				birthday VARCHAR(10) NOT NULL,
 				created_date DATETIME NOT NULL,
