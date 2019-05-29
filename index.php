@@ -12,7 +12,7 @@
 	<form method='post' action='addProducts.php'>
 	<table width='500' border='3' align='center'>
 		<tr>
-			<th bgcolor='silver' colspan='5'>Registration Form</h>
+			<th bgcolor='silver' colspan='2'>Registration Form</h>
 		</tr>
 		<tr >
 			<td align='right'>First Name:</td>
@@ -53,7 +53,7 @@
 			</td>
 		</tr>
 		<tr>
-			<td align='center' colspan='6'>
+			<td align='center' colspan='2'>
 			<input type='submit' name='submit' value='Submit'>
 			</td>
 		</tr>  
