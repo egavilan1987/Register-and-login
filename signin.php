@@ -30,11 +30,6 @@
 			<input type='submit' name='submit' value='Submit'>
 			</td>
 		</tr>
-        <tr>
-			<td align='center' colspan='6'>
-			<a href="signup.php">Sign up</a>&nbsp;
-			</td>
-		</tr>
 	  </table>  
 	</form><br>
 </body>
