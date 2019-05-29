@@ -12,7 +12,7 @@
 	<form method='post' action='addProducts.php'>
       <table width='500' border='3' align='center'>
           <tr>
-              <th bgcolor='silver' colspan='2'>Registration Form</th>
+              <th bgcolor='dodgerBlue' colspan='2'>Registration Form</th>
           </tr>
           <tr>
               <td align='right'>First Name:</td>
