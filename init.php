@@ -9,54 +9,41 @@
 	  <a href="#">Sign up</a>&nbsp;
 	</ul>
 	<br><br>
-	<form method='post' action='addProducts.php'>
+	<form>
       <table width='500' border='3' align='center'>
           <tr>
-              <th bgcolor='dodgerBlue' colspan='2'>Registration Form</th>
+              <th bgcolor='dodgerBlue' colspan='2'>Profile Information</th>
           </tr>
           <tr>
               <td align='right'>First Name:</td>
-              <td><input type='text' name='firstname' maxlength="50" required >
+              <td>Enmanuel De Jesus
               </td>
           </tr>
           <tr>
               <td align='right'>Last Name:</td>
-              <td><input type='text' name='lastname' maxlength="50" required >
+              <td>Gavilan Cruz
               </td>
           </tr>
           <tr>
               <td align='right'>Email :</td>
-              <td><input type='email' name='email' maxlength="50" required>
+              <td>enmanuelgc@gmail.com
               </td>
           </tr>
           <tr>
               <td align='right'>Username: </td>
-              <td><input type='username' name='username' maxlength="50" required>
-              </td>
-          </tr>
-          <tr>
-              <td align='right'>Password: </td>
-              <td><input type='password' name='password' maxlength="50" required>
+              <td>egavilan
               </td>
           </tr>
           <tr>
               <td align='right'>Gender: </td>
-              <td>
-                <input type="radio" name="gender" value="male" checked> Male
-                <input type="radio" name="gender" value="female"> Female
-                <input type="radio" name="gender" value="other"> Other  
+              <td>Male 
               </td>
           </tr>
           <tr>
               <td align='right'>Birthday: </td>
-              <td><input type='date' name='birthday' required>
+              <td>01/25/2019
               </td>
           </tr>
-          <tr>
-              <td align='center' colspan='2'>
-              <input type='submit' name='submit' value='Submit'>
-              </td>
-          </tr>  
        </table>  
 	</form>
 </body>
