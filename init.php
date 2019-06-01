@@ -1,3 +1,10 @@
+<?php 
+  session_start();
+
+  if (!$_SESSION['user_name']){
+    header('location:index.php');
+  }
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,6 +12,10 @@
 	</head>  
 <body>
 	<ul align='right'>
+    Welcome: 
+    <font color="blue">
+      <?php echo $_SESSION['user_name']; ?>      
+    </font>&nbsp;
 	  <a href="logout.php">Log out</a>&nbsp; 
 	</ul>
 	<br><br>
@@ -15,33 +26,27 @@
           </tr>
           <tr>
               <td align='right'>First Name:</td>
-              <td>Enmanuel De Jesus
-              </td>
+              <td><?php echo $_SESSION['firstname']; ?></td>
           </tr>
           <tr>
               <td align='right'>Last Name:</td>
-              <td>Gavilan Cruz
-              </td>
+              <td><?php echo $_SESSION['lastname']; ?></td>
           </tr>
           <tr>
               <td align='right'>Email :</td>
-              <td>enmanuelgc@gmail.com
-              </td>
+              <td><?php echo $_SESSION['email']; ?></td>
           </tr>
           <tr>
               <td align='right'>Username: </td>
-              <td>egavilan
-              </td>
+              <td><?php echo $_SESSION['user_name']; ?></td>
           </tr>
           <tr>
               <td align='right'>Gender: </td>
-              <td>Male 
-              </td>
+              <td><?php echo $_SESSION['gender']; ?></td>
           </tr>
           <tr>
               <td align='right'>Birthday: </td>
-              <td>01/25/2019
-              </td>
+              <td><?php echo $_SESSION['birthday']; ?></td>
           </tr>
        </table>  
 	</form>
