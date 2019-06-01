@@ -4,9 +4,8 @@
 		<title>Simple PHP Login and Register System</title>		
 	</head>  
 <body>
-	<ul>
-	  <a href="signin.php">Sign in</a>&nbsp; 
-	  <a href="#">Sign up</a>&nbsp;
+	<ul align='right'>
+	  <a href="logout.php">Log out</a>&nbsp; 
 	</ul>
 	<br><br>
 	<form>
